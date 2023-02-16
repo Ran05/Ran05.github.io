@@ -956,18 +956,19 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #fff;
+  background: #050d18;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
 .testimonials .testimonial-item p::after {
   content: "";
   width: 0;
   height: 0;
-  border-top: 20px solid #fff;
+  border-top: 20px solid #050d18;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
@@ -1001,7 +1002,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #050d18;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -1025,14 +1026,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: white;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: white;
 }
 
 .contact .info .email p {
@@ -1073,8 +1074,8 @@ section {
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  background: #050d18;
+  box-shadow: 0 0 24px 0 black;
 }
 
 .contact .php-email-form .form-group {
@@ -1137,6 +1138,7 @@ section {
 
 .contact .php-email-form label {
   padding-bottom: 8px;
+  color: white;
 }
 
 .contact .php-email-form input,
@@ -1144,6 +1146,8 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  background-color: #050d18;
+  color: white;
 }
 
 .contact .php-email-form input {
